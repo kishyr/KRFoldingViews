@@ -24,7 +24,7 @@ KRFoldingViews is a really simple animation library (it's really just a category
 [UIView foldViews:self.arrayOfViews inDirections:@"left, down, right, right, up, up, left, left, up" fromOriginalView:originalView];
 ```
 
-** Try out the included sample project for more on how it works. **
+**Try out the included sample project for more on how it works.**
 
 ---
 ### Licensing
