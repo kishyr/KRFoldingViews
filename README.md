@@ -1,7 +1,11 @@
 ### About 
 KRFoldingViews is a really simple animation library (it's really just a category for UIView) that creates a folding or unfolding animation effect on your views. I tried to make the syntax as easy and as simple as possible. Please feel free to fork, improve it, and submit pull-requests. Enjoy!   
-[&mdash;Kishyr](http://kishyr.ramdi.al)
+[&mdash;Kishyr](http://kishyr.ramdi.al)  
 
+Twitter: [@kishyr](http://twitter.com/kishyr)  
+App.net: [@kishyr](http://alpha.app.net/kishyr)
+
+---
 #### Basic Folding
 ```objective-c
 // fold 'imageView' from the left of 'original view'
