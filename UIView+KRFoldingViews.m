@@ -27,6 +27,7 @@
 #import "UIView+KRFoldingViews.h"
 #import <QuartzCore/QuartzCore.h>
 
+// Set the animation speed
 #define ANIMATION_SPEED 1.5
 
 
@@ -207,7 +208,6 @@
 	}
 	
 	NSMutableArray *completionBlocks = [NSMutableArray arrayWithCapacity:[allDirections count]];
-	NSMutableArray *selectors = [NSMutableArray arrayWithCapacity:[allDirections count]];
 	typedef void (^FoldingViewBlock)(void);
 	
 	NSInteger counter = 1;
@@ -236,9 +236,7 @@
 			else
 				[thisView performSelector:selector withObject:previousView withObject:previousCompletionBlock];
 		};
-		[selectors insertObject:selectorString atIndex:0];
 		[completionBlocks insertObject:completionBlock atIndex:0];
-		[completionBlocks addObject:completionBlock];
 		
 		counter++;
 	}
