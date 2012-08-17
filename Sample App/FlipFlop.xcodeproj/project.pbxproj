@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		635DD4A615D8F49900933514 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 635DD4A415D8F49900933514 /* 1.jpg */; };
+		635DD4A715D8F49900933514 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 635DD4A515D8F49900933514 /* 4.jpg */; };
+		635DD4B015D8F71800933514 /* UIView+KRFoldingViews.m in Sources */ = {isa = PBXBuildFile; fileRef = 635DD4AF15D8F71800933514 /* UIView+KRFoldingViews.m */; };
+		635DD4B215D8F75900933514 /* UIView+KRFoldingViews.m in Sources */ = {isa = PBXBuildFile; fileRef = 635DD4AF15D8F71800933514 /* UIView+KRFoldingViews.m */; };
+		635DD4B515D8F7F800933514 /* KRRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 635DD4B415D8F7F800933514 /* KRRootViewController.m */; };
+		63B43A4415D8F079009A41FB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63B43A4315D8F079009A41FB /* UIKit.framework */; };
+		63B43A4615D8F079009A41FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63B43A4515D8F079009A41FB /* Foundation.framework */; };
+		63B43A4815D8F079009A41FB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63B43A4715D8F079009A41FB /* CoreGraphics.framework */; };
+		63B43A4E15D8F079009A41FB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 63B43A4C15D8F079009A41FB /* InfoPlist.strings */; };
+		63B43A5015D8F079009A41FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B43A4F15D8F079009A41FB /* main.m */; };
+		63B43A5415D8F079009A41FB /* KRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B43A5315D8F079009A41FB /* KRAppDelegate.m */; };
+		63B43A5715D8F079009A41FB /* KRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B43A5615D8F079009A41FB /* KRViewController.m */; };
+		63B43A6215D8F079009A41FB /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63B43A6115D8F079009A41FB /* SenTestingKit.framework */; };
+		63B43A6315D8F079009A41FB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63B43A4315D8F079009A41FB /* UIKit.framework */; };
+		63B43A6415D8F079009A41FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63B43A4515D8F079009A41FB /* Foundation.framework */; };
+		63B43A6C15D8F079009A41FB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 63B43A6A15D8F079009A41FB /* InfoPlist.strings */; };
+		63B43A6F15D8F079009A41FB /* FlipFlopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B43A6E15D8F079009A41FB /* FlipFlopTests.m */; };
+		63B43A7E15D8F1DF009A41FB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63B43A7D15D8F1DF009A41FB /* QuartzCore.framework */; };
+		63B43A8915D8F3F2009A41FB /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63B43A8015D8F3F2009A41FB /* 0.jpg */; };
+		63B43A8A15D8F3F2009A41FB /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63B43A8015D8F3F2009A41FB /* 0.jpg */; };
+		63B43A8D15D8F3F2009A41FB /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63B43A8215D8F3F2009A41FB /* 2.jpg */; };
+		63B43A8E15D8F3F2009A41FB /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63B43A8215D8F3F2009A41FB /* 2.jpg */; };
+		63B43A8F15D8F3F2009A41FB /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63B43A8315D8F3F2009A41FB /* 3.jpg */; };
+		63B43A9015D8F3F2009A41FB /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63B43A8315D8F3F2009A41FB /* 3.jpg */; };
+		63B43A9315D8F3F2009A41FB /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63B43A8515D8F3F2009A41FB /* 5.jpg */; };
+		63B43A9415D8F3F2009A41FB /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63B43A8515D8F3F2009A41FB /* 5.jpg */; };
+		63B43A9515D8F3F2009A41FB /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63B43A8615D8F3F2009A41FB /* 6.jpg */; };
+		63B43A9615D8F3F2009A41FB /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63B43A8615D8F3F2009A41FB /* 6.jpg */; };
+		63B43A9715D8F3F2009A41FB /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63B43A8715D8F3F2009A41FB /* 7.jpg */; };
+		63B43A9815D8F3F2009A41FB /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63B43A8715D8F3F2009A41FB /* 7.jpg */; };
+		63B43A9915D8F3F2009A41FB /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63B43A8815D8F3F2009A41FB /* 8.jpg */; };
+		63B43A9A15D8F3F2009A41FB /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63B43A8815D8F3F2009A41FB /* 8.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63B43A6515D8F079009A41FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63B43A3615D8F079009A41FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63B43A3E15D8F079009A41FB;
+			remoteInfo = FlipFlop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		635DD4A415D8F49900933514 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		635DD4A515D8F49900933514 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		635DD4AE15D8F71800933514 /* UIView+KRFoldingViews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+KRFoldingViews.h"; path = "../../UIView+KRFoldingViews.h"; sourceTree = "<group>"; };
+		635DD4AF15D8F71800933514 /* UIView+KRFoldingViews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+KRFoldingViews.m"; path = "../../UIView+KRFoldingViews.m"; sourceTree = "<group>"; };
+		635DD4B315D8F7F800933514 /* KRRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KRRootViewController.h; sourceTree = "<group>"; };
+		635DD4B415D8F7F800933514 /* KRRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KRRootViewController.m; sourceTree = "<group>"; };
+		63B43A3F15D8F079009A41FB /* FlipFlop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlipFlop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63B43A4315D8F079009A41FB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		63B43A4515D8F079009A41FB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		63B43A4715D8F079009A41FB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		63B43A4B15D8F079009A41FB /* FlipFlop-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlipFlop-Info.plist"; sourceTree = "<group>"; };
+		63B43A4D15D8F079009A41FB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		63B43A4F15D8F079009A41FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		63B43A5115D8F079009A41FB /* FlipFlop-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlipFlop-Prefix.pch"; sourceTree = "<group>"; };
+		63B43A5215D8F079009A41FB /* KRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KRAppDelegate.h; sourceTree = "<group>"; };
+		63B43A5315D8F079009A41FB /* KRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRAppDelegate.m; sourceTree = "<group>"; };
+		63B43A5515D8F079009A41FB /* KRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KRViewController.h; sourceTree = "<group>"; };
+		63B43A5615D8F079009A41FB /* KRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRViewController.m; sourceTree = "<group>"; };
+		63B43A6015D8F079009A41FB /* FlipFlopTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlipFlopTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63B43A6115D8F079009A41FB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		63B43A6915D8F079009A41FB /* FlipFlopTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlipFlopTests-Info.plist"; sourceTree = "<group>"; };
+		63B43A6B15D8F079009A41FB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		63B43A6D15D8F079009A41FB /* FlipFlopTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipFlopTests.h; sourceTree = "<group>"; };
+		63B43A6E15D8F079009A41FB /* FlipFlopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipFlopTests.m; sourceTree = "<group>"; };
+		63B43A7D15D8F1DF009A41FB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		63B43A8015D8F3F2009A41FB /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
+		63B43A8215D8F3F2009A41FB /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		63B43A8315D8F3F2009A41FB /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		63B43A8515D8F3F2009A41FB /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		63B43A8615D8F3F2009A41FB /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		63B43A8715D8F3F2009A41FB /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		63B43A8815D8F3F2009A41FB /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63B43A3C15D8F079009A41FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63B43A7E15D8F1DF009A41FB /* QuartzCore.framework in Frameworks */,
+				63B43A4415D8F079009A41FB /* UIKit.framework in Frameworks */,
+				63B43A4615D8F079009A41FB /* Foundation.framework in Frameworks */,
+				63B43A4815D8F079009A41FB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B43A5C15D8F079009A41FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63B43A6215D8F079009A41FB /* SenTestingKit.framework in Frameworks */,
+				63B43A6315D8F079009A41FB /* UIKit.framework in Frameworks */,
+				63B43A6415D8F079009A41FB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		635DD4B115D8F71D00933514 /* KRFoldingViews */ = {
+			isa = PBXGroup;
+			children = (
+				635DD4AE15D8F71800933514 /* UIView+KRFoldingViews.h */,
+				635DD4AF15D8F71800933514 /* UIView+KRFoldingViews.m */,
+			);
+			name = KRFoldingViews;
+			sourceTree = "<group>";
+		};
+		63B43A3415D8F079009A41FB = {
+			isa = PBXGroup;
+			children = (
+				63B43A7D15D8F1DF009A41FB /* QuartzCore.framework */,
+				63B43A4915D8F079009A41FB /* FlipFlop */,
+				63B43A6715D8F079009A41FB /* FlipFlopTests */,
+				63B43A4215D8F079009A41FB /* Frameworks */,
+				63B43A4015D8F079009A41FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63B43A4015D8F079009A41FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63B43A3F15D8F079009A41FB /* FlipFlop.app */,
+				63B43A6015D8F079009A41FB /* FlipFlopTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63B43A4215D8F079009A41FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63B43A4315D8F079009A41FB /* UIKit.framework */,
+				63B43A4515D8F079009A41FB /* Foundation.framework */,
+				63B43A4715D8F079009A41FB /* CoreGraphics.framework */,
+				63B43A6115D8F079009A41FB /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63B43A4915D8F079009A41FB /* FlipFlop */ = {
+			isa = PBXGroup;
+			children = (
+				635DD4B115D8F71D00933514 /* KRFoldingViews */,
+				63B43A7F15D8F3F2009A41FB /* Images */,
+				63B43A5215D8F079009A41FB /* KRAppDelegate.h */,
+				63B43A5315D8F079009A41FB /* KRAppDelegate.m */,
+				635DD4B315D8F7F800933514 /* KRRootViewController.h */,
+				635DD4B415D8F7F800933514 /* KRRootViewController.m */,
+				63B43A5515D8F079009A41FB /* KRViewController.h */,
+				63B43A5615D8F079009A41FB /* KRViewController.m */,
+				63B43A4A15D8F079009A41FB /* Supporting Files */,
+			);
+			path = FlipFlop;
+			sourceTree = "<group>";
+		};
+		63B43A4A15D8F079009A41FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63B43A4B15D8F079009A41FB /* FlipFlop-Info.plist */,
+				63B43A4C15D8F079009A41FB /* InfoPlist.strings */,
+				63B43A4F15D8F079009A41FB /* main.m */,
+				63B43A5115D8F079009A41FB /* FlipFlop-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63B43A6715D8F079009A41FB /* FlipFlopTests */ = {
+			isa = PBXGroup;
+			children = (
+				63B43A6D15D8F079009A41FB /* FlipFlopTests.h */,
+				63B43A6E15D8F079009A41FB /* FlipFlopTests.m */,
+				63B43A6815D8F079009A41FB /* Supporting Files */,
+			);
+			path = FlipFlopTests;
+			sourceTree = "<group>";
+		};
+		63B43A6815D8F079009A41FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63B43A6915D8F079009A41FB /* FlipFlopTests-Info.plist */,
+				63B43A6A15D8F079009A41FB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63B43A7F15D8F3F2009A41FB /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				63B43A8015D8F3F2009A41FB /* 0.jpg */,
+				635DD4A415D8F49900933514 /* 1.jpg */,
+				63B43A8215D8F3F2009A41FB /* 2.jpg */,
+				63B43A8315D8F3F2009A41FB /* 3.jpg */,
+				635DD4A515D8F49900933514 /* 4.jpg */,
+				63B43A8515D8F3F2009A41FB /* 5.jpg */,
+				63B43A8615D8F3F2009A41FB /* 6.jpg */,
+				63B43A8715D8F3F2009A41FB /* 7.jpg */,
+				63B43A8815D8F3F2009A41FB /* 8.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63B43A3E15D8F079009A41FB /* FlipFlop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63B43A7215D8F079009A41FB /* Build configuration list for PBXNativeTarget "FlipFlop" */;
+			buildPhases = (
+				63B43A3B15D8F079009A41FB /* Sources */,
+				63B43A3C15D8F079009A41FB /* Frameworks */,
+				63B43A3D15D8F079009A41FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlipFlop;
+			productName = FlipFlop;
+			productReference = 63B43A3F15D8F079009A41FB /* FlipFlop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63B43A5F15D8F079009A41FB /* FlipFlopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63B43A7515D8F079009A41FB /* Build configuration list for PBXNativeTarget "FlipFlopTests" */;
+			buildPhases = (
+				63B43A5B15D8F079009A41FB /* Sources */,
+				63B43A5C15D8F079009A41FB /* Frameworks */,
+				63B43A5D15D8F079009A41FB /* Resources */,
+				63B43A5E15D8F079009A41FB /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63B43A6615D8F079009A41FB /* PBXTargetDependency */,
+			);
+			name = FlipFlopTests;
+			productName = FlipFlopTests;
+			productReference = 63B43A6015D8F079009A41FB /* FlipFlopTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63B43A3615D8F079009A41FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KR;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "entropy|one";
+			};
+			buildConfigurationList = 63B43A3915D8F079009A41FB /* Build configuration list for PBXProject "FlipFlop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 63B43A3415D8F079009A41FB;
+			productRefGroup = 63B43A4015D8F079009A41FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63B43A3E15D8F079009A41FB /* FlipFlop */,
+				63B43A5F15D8F079009A41FB /* FlipFlopTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63B43A3D15D8F079009A41FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63B43A4E15D8F079009A41FB /* InfoPlist.strings in Resources */,
+				63B43A8915D8F3F2009A41FB /* 0.jpg in Resources */,
+				63B43A8D15D8F3F2009A41FB /* 2.jpg in Resources */,
+				63B43A8F15D8F3F2009A41FB /* 3.jpg in Resources */,
+				63B43A9315D8F3F2009A41FB /* 5.jpg in Resources */,
+				63B43A9515D8F3F2009A41FB /* 6.jpg in Resources */,
+				63B43A9715D8F3F2009A41FB /* 7.jpg in Resources */,
+				63B43A9915D8F3F2009A41FB /* 8.jpg in Resources */,
+				635DD4A615D8F49900933514 /* 1.jpg in Resources */,
+				635DD4A715D8F49900933514 /* 4.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B43A5D15D8F079009A41FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63B43A6C15D8F079009A41FB /* InfoPlist.strings in Resources */,
+				63B43A8A15D8F3F2009A41FB /* 0.jpg in Resources */,
+				63B43A8E15D8F3F2009A41FB /* 2.jpg in Resources */,
+				63B43A9015D8F3F2009A41FB /* 3.jpg in Resources */,
+				63B43A9415D8F3F2009A41FB /* 5.jpg in Resources */,
+				63B43A9615D8F3F2009A41FB /* 6.jpg in Resources */,
+				63B43A9815D8F3F2009A41FB /* 7.jpg in Resources */,
+				63B43A9A15D8F3F2009A41FB /* 8.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		63B43A5E15D8F079009A41FB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63B43A3B15D8F079009A41FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				635DD4B215D8F75900933514 /* UIView+KRFoldingViews.m in Sources */,
+				63B43A5015D8F079009A41FB /* main.m in Sources */,
+				63B43A5415D8F079009A41FB /* KRAppDelegate.m in Sources */,
+				63B43A5715D8F079009A41FB /* KRViewController.m in Sources */,
+				635DD4B515D8F7F800933514 /* KRRootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B43A5B15D8F079009A41FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63B43A6F15D8F079009A41FB /* FlipFlopTests.m in Sources */,
+				635DD4B015D8F71800933514 /* UIView+KRFoldingViews.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63B43A6615D8F079009A41FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63B43A3E15D8F079009A41FB /* FlipFlop */;
+			targetProxy = 63B43A6515D8F079009A41FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		63B43A4C15D8F079009A41FB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63B43A4D15D8F079009A41FB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		63B43A6A15D8F079009A41FB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63B43A6B15D8F079009A41FB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63B43A7015D8F079009A41FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		63B43A7115D8F079009A41FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63B43A7315D8F079009A41FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlipFlop/FlipFlop-Prefix.pch";
+				INFOPLIST_FILE = "FlipFlop/FlipFlop-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		63B43A7415D8F079009A41FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlipFlop/FlipFlop-Prefix.pch";
+				INFOPLIST_FILE = "FlipFlop/FlipFlop-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		63B43A7615D8F079009A41FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FlipFlop.app/FlipFlop";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlipFlop/FlipFlop-Prefix.pch";
+				INFOPLIST_FILE = "FlipFlopTests/FlipFlopTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		63B43A7715D8F079009A41FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FlipFlop.app/FlipFlop";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlipFlop/FlipFlop-Prefix.pch";
+				INFOPLIST_FILE = "FlipFlopTests/FlipFlopTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63B43A3915D8F079009A41FB /* Build configuration list for PBXProject "FlipFlop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63B43A7015D8F079009A41FB /* Debug */,
+				63B43A7115D8F079009A41FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63B43A7215D8F079009A41FB /* Build configuration list for PBXNativeTarget "FlipFlop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63B43A7315D8F079009A41FB /* Debug */,
+				63B43A7415D8F079009A41FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63B43A7515D8F079009A41FB /* Build configuration list for PBXNativeTarget "FlipFlopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63B43A7615D8F079009A41FB /* Debug */,
+				63B43A7715D8F079009A41FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63B43A3615D8F079009A41FB /* Project object */;
+}
