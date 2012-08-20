@@ -36,6 +36,8 @@
 @implementation KRViewController
 
 - (void)basicFolds {
+	self.title = @"Simple";
+	
 	self.colorViews = [NSMutableArray array];
 	
 	for (int i = 0; i<9; i++) {
@@ -71,6 +73,8 @@
 }
 
 - (void)blockFolding {
+	self.title = @"Block-based";
+	
 	self.colorViews = [NSMutableArray array];
 	
 	for (int i = 0; i<9; i++) {
@@ -119,6 +123,8 @@
 }
 
 - (void)stringBasedFolding {
+	self.title = @"String-based";
+	
 	self.colorViews = [NSMutableArray array];
 	
 	for (int i = 0; i<9; i++) {
@@ -147,6 +153,10 @@
 
 - (void)viewDidLoad {
 	[super viewDidLoad];
+	
+	self.navigationController.navigationBar.tintColor = [UIColor blackColor];
+	self.navigationController.navigationBar.translucent = YES;
+	self.view.backgroundColor = [UIColor blackColor];
 	
 	[self performSelector:NSSelectorFromString(self.foldingMethod) withObject:nil];
 }
