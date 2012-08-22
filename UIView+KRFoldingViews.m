@@ -1,9 +1,9 @@
 //
-//  UIView+KROrigami.m
+//  UIView+KRFoldingViews.m
 //  KRFoldingViews
 //
 //  Created by Kishyr Ramdial on 2012/08/09.
-//  Copyright (c) 2012 entropy|one. All rights reserved.
+//  Copyright (c) 2012 Kishyr Ramdial. All rights reserved.
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal
@@ -31,7 +31,7 @@
 #define ANIMATION_SPEED 1.5
 
 
-@implementation UIView (KROrigami)
+@implementation UIView (KRFoldingViews)
 
 // Basic Animations
 - (CABasicAnimation *)origamiFoldLeft {

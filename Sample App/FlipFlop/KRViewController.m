@@ -3,7 +3,7 @@
 //  FlipFlop
 //
 //  Created by Kishyr Ramdial on 2012/08/13.
-//  Copyright (c) 2012 entropy|one. All rights reserved.
+//  Copyright (c) 2012 Kishyr Ramdial. All rights reserved.
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal
